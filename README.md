@@ -8,8 +8,8 @@ This code is intended as a sample only to provide a starting point for individua
 
 ## Format
 
-The associated code is in the form of Matlab .m files. The main file is `BP_equilibria.m`. 
-The associated files `threeratesol.m`, `fourratesol.m`, etc. set up the systems of equations that are involved in solving for parameters used in the equilibrium expressions. The file `lCDF.m` contains the function for the Laplace cumulative distribution function.
+The associated code is in the form of Matlab .m files. The main file is `BP_equilibria.m`. This code builds the block-pulse IDE, sets up the different potential equilibria, and solves for and plots the valid equilibria of the block-pulse model.
+The associated files `threeratesol.m`, `fourratesol.m`, etc. set up the systems of equations that are involved in solving for parameters used in the equilibrium expressions. The file `lCDF.m` contains the function for the Laplace cumulative distribution function. The files `pratesol.m`, `praten0.m`, and `pratenL2.m` provide general expressions for the full equilibrium distribution $n(x)$, maximum population density $n(0)$, and minimum population density $n(L/2)$ for an equilibrium with a given number of growth levels.
 
 ### License
 This code is licensed under the terms of the MIT license. See the `LICENSE` file for details.
